@@ -7,15 +7,15 @@ let count = 0;
 let dataTextLength = dataText.length;
 
 let setText = () => {
-  setTimeout(() => {
-    typeWriter.textContent += dataText.charAt(count);
-    count++;
-    if (count <= dataTextLength) {
-      setText();
-    }
-  }, 100);
+	setTimeout(() => {
+		typeWriter.textContent += dataText.charAt(count);
+		count++;
+		if (count <= dataTextLength) {
+			setText();
+		}
+	}, 75, 20);
 };
 
 window.onload = () => {
-  setText();
+	setText();
 };

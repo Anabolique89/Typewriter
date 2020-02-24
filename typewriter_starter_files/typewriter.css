@@ -1,13 +1,22 @@
 .typewritten {
   font-family: "Special Elite", cursive;
-  color: navy;
+  color: #fff;
+  font-size: 3em;
 }
 body {
+  background-image: url("sailorMercury.jpeg");
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
 }
-/*.container {
+
+div.container {
+  top: 20px;
   display: flex;
   width: 700px;
   margin: 0 auto;
-  background-color: paleturquoise;
+  background-color: rgba(225, 125, 0, 0.2);
+  border-radius: 5%;
+  padding: 40px;
 }
-*/
